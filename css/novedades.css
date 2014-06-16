@@ -1,0 +1,130 @@
+.item-novedad
+{
+	width:320px;
+	height:55px;
+	float:left;
+	margin-top:10px;
+	background:rgba(255,255,255,0.6);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);		
+}
+.item-novedad h4
+{
+	font-family: 'Oswald';
+	font-size:16px;
+	text-align:center;
+	padding:0px 5px;
+	margin:0;
+	text-transform:uppercase;
+}
+.imagen-item-novedad
+{
+	width:90px;
+	height:55px;
+	float:left;
+	margin-left:25px;
+	overflow:hidden;
+}
+.holder-noticia-item
+{
+	width:320px;
+	height:330px;
+	position:absolute;
+	top:0;
+	display:none;
+}
+.wrapper-titulo-noticia
+{
+	width: 100%;
+	height: 59px;
+	float: left;
+	position: relative;
+	padding-top: 9px;
+	text-align: left;
+	-webkit-transform: translate3d(0,0,0);
+}
+.wrapper-titulo-noticia h1
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-top: 8px;
+	margin-left: 25px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);		
+}
+#holder-noticia-contenido
+{
+	width:320px;
+	height:auto;
+	float:left;
+	margin-top:-18px;
+	background:rgba(255,255,255,0.6);
+	overflow-y:auto;
+	position:relative;
+}
+#holder-noticia-contenido h4
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 0px;
+	font-family: 'Oswald';
+	font-size: 18px;
+}
+#holder-noticia-contenido p
+{
+	font-family: 'Oswald';
+	font-size: 14px;
+	text-align: justify;
+	color:#000;
+	padding:5px 10px;
+	float:left;
+}
+.item-categoria-item
+{
+	width:155px;
+	height:110px;
+	float:left;
+	background:rgba(255,255,255,0.6);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	margin-bottom:10px;
+}
+.titulo-categoria-noticias
+{
+	width : 155px;
+	float : left;
+	height : 22px;
+	background:url(../img/secciones/noticias/header-categoria.png);
+	float:left;
+	text-align:center;	
+	overflow:hidden;
+}
+.titulo-categoria-noticias h4
+{
+	font-family: 'Oswald';
+	font-size:13px;
+	text-align:center;
+	margin:0;
+	text-transform:uppercase;
+	color:#FFF;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	padding-top:4px;	
+}
+
+.imagen-item-categoria-noticias
+{
+	width:155px;
+	height:80px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+}
+#socialFacebook
+{
+	float:right;
+	margin-right:10px;
+}

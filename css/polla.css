@@ -1,0 +1,285 @@
+#holder-datos-usuario
+{
+	width:300px;
+	height:auto;
+	background:rgba(255,255,255,0.6);
+	float:left;	
+	margin-top: 10px;
+	min-height:200px;
+	padding:10px 10px;	
+}
+
+#left-holder-datos-usuario
+{
+	width:300px;
+	height:100px;	
+	float:left;
+}
+#left-holder-datos-usuario div
+{
+	width:100px;
+	height:100px;
+	background:#FFF url(../img/general/loader.GIF) no-repeat;
+	background-position: center center;	
+	overflow:hidden;
+	margin:0 auto;
+}
+#right-holder-datos-usuario
+{
+	width:300px;
+	height:100%;
+	float:left;
+	min-height:200px;
+	word-wrap:break-word;	
+}
+.holder-profile-titulo
+{
+	float:left;
+	margin-bottom:5px;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#000;
+	width:100%;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:rgba(255,255,255,0.2);
+}
+.holder-profile-texto
+{
+	color:#333;	
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;	
+	text-align:center;	
+}
+.holder-profile-texto
+{
+	margin:0;
+	padding:0;
+}
+#right-holder-datos-usuario ul
+{
+	margin:0;
+	padding:0;
+}
+#right-holder-datos-usuario ul li
+{
+	padding:0;
+	list-style-type:none;
+	margin-bottom:5px;
+}
+#holder-participaciones-polla
+{
+	width:320px;
+	float:left;
+}
+#holder-proximos-polla
+{
+	width:320px;
+	float:left;
+}
+#div-holder-editar-btn
+{
+	width:300px;
+	height:40px;
+	float:left;
+	margin-top:10px;
+}
+#btn-editar
+{
+	width:150px;
+	height:25px;
+	background:#e11913;
+	text-align:center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	color:#FFF;
+	text-transform:uppercase;
+	margin:0 auto;
+	padding-top:5px;
+}
+#holder-proximos-partidos-contenido
+{
+	width:320px;
+	height:auto;
+	float:left;
+	margin-top:-18px;
+	background:rgba(255,255,255,0.6);
+}
+.item-versus-polla
+{
+	width:320px;
+	height:75px;
+	float:left;
+	margin-top:10px;
+	position:relative;
+}
+#holder-lightBox-contenido
+{
+	width:320px;
+	height:auto;
+	float:left;
+	margin-top:-18px;
+	background:rgba(255,255,255,0.6);
+}
+.marcador-pronostico
+{
+	width:80px;
+	height:22px;
+	background:#7c7b7a;
+	text-align:center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 12px;
+	color:#FFF;
+	text-transform:uppercase;
+	margin:0 auto;
+	padding-top:7px;
+}
+.texto-versus-red
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 30px;
+	color:#e11913;
+	text-shadow: 2px 2px 2px rgba(102, 102, 102, 1);
+	text-transform:uppercase;
+	padding-top:5px
+}
+#btn-enviar-pronostico
+{
+	width:150px;
+	height:25px;
+	background:#e11913;
+	text-align:center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	color:#FFF;
+	text-transform:uppercase;
+	margin:0 auto;
+	padding-top:5px;
+}
+#btn-editar-pronostico
+{
+	width:150px;
+	height:25px;
+	background:#e11913;
+	text-align:center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	color:#FFF;
+	text-transform:uppercase;
+	margin:0 auto;
+	padding-top:5px;
+}
+
+#btn-compartir
+{
+	width:93px;
+	height:25px;
+	margin:0 auto;
+	background:url(../img/secciones/polla/btn-compartir.png) no-repeat;
+	background-size:93px 25px;
+	margin-top:10px;
+	display:none;
+}
+.btn-pronostico
+{
+	position:absolute;
+	right:15px;
+	top:18px;
+}
+#holder-apuesta-contenido
+{
+	width: 320px;
+	height: auto;
+	float: left;
+	margin-top: -18px;
+	background: rgba(255,255,255,0.6);
+}
+#holder-partidos-jugados-contenido
+{
+	width:320px;
+	float:left;
+	margin-top: -18px;	
+	background: rgba(255,255,255,0.6);
+	padding-bottom:10px;	
+}
+.btn-editar-pronostico-oculto
+{
+	width: 38px;
+	height: 22px;
+	background: #e11913;
+	position: absolute;
+	right: 3px;
+	top: 18px;	
+	text-align:center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 10px;
+	color:#FFF;
+	text-transform:uppercase;
+	padding-top:8px;	
+}
+.holder-detalles-proximo-partido
+{
+	float : left;
+	height : 68px;
+	text-align:left;
+	overflow:hidden;
+	padding-top:7px;
+	padding:0;
+	margin:0;
+	font-family: 'Oswald';
+	color:#000;	
+	font-size:14px;	
+}
+.holder-detalles-proximo-partido p
+{
+	padding:0;
+	margin:0;
+}
+.item-partido-jugados-polla
+{
+	width: 320px;
+	height: 85px;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+}
+.holder-detalles-partido-jugado
+{
+	float: left;
+	height: 85px;
+	text-align: left;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald';
+	color: #000;
+	font-size: 14px;
+}
+.holder-detalles-partido-jugado p
+{
+	padding:0;
+	margin:0;
+}
+.mensaje  
+{
+	font-family: 'Oswald';
+	color: #000;
+	font-size: 19px;
+	margin-left:10px;
+	margin-top:30px;
+	text-align:center;
+}

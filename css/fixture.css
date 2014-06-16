@@ -1,0 +1,170 @@
+.place-holder-grupo
+{
+	width:320px;
+	height:180px;
+	float:left;
+	margin-bottom:10px;
+	background:rgba(255,255,255,0.6);	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);			
+}
+.vertical-fixture
+{
+	width:30px;
+	height:180px;
+	float:left;	
+	background:url(../img/secciones/fixture/titulo-grupo.png) no-repeat;
+	background-size:30px 180px;
+}
+.vertical-fixture P
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+	margin-top: 80px;
+	width: 90px;
+	text-align: center;
+	margin-left: -29px;	
+	color:#FFF;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);			
+}
+.holder-selecciones
+{
+	width:270px;
+	float:left;
+	height:180px;
+}
+.seleccion-div
+{
+	width: 105px;
+	height: 70px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+	overflow: hidden;
+	text-align:center;	
+}
+.seleccion-div p
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	margin:0;
+	padding:0;
+}
+.item-versus
+{
+	width:320px;
+	height:75px;
+	float:left;
+	margin-top:10px;
+	background:rgba(255,255,255,0.6);
+}
+.holder-grupo-contenido
+{
+	width: 320px;
+	height: auto;
+	float: left;
+	overflow-y:auto;
+	-webkit-overflow-scrolling: touch;	
+}
+.holder-banderas-partidos
+{
+	width:135px;
+	height:75px;
+	position:relative;
+	float:left;
+	overflow:hidden;
+}
+.holder-banderas-partidos p
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 22px;
+	color:#FFF;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+	position:absolute;
+	top:0px;
+	left:48px;	
+}
+.holder-detalles-partido
+{
+	float : left;
+	height : 68px;
+	text-align:left;
+	overflow:hidden;
+	padding-top:7px;
+	padding:0;
+	margin:0;
+	font-family: 'Oswald';
+	color:#000;	
+	font-size:14px;
+	margin-top:5px;		
+}
+.holder-detalles-partido p
+{
+	padding:0;
+	margin:0;
+}
+#wrapper-partidos-del-dia
+{
+	width:320px;
+	height:266px;
+	background:url(../img/secciones/fixture/partidos-del-dia-back.png) no-repeat;
+	background-size:320px 266px;
+	float:left;
+	margin-bottom:10px;
+	position:relative;
+}
+
+#wrapper-partidos-del-dia #tituloPartidosDia
+{
+	width:100%;
+	height:30px;
+	text-align:center;
+	margin-top:10px;
+}
+#tituloPartidosDia h4
+{
+	font-family: 'Oswald';
+	color:#FFF;	
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);	
+	font-size:19px;
+	margin:0;
+	padding:0;
+}
+
+.partido-del-dia
+{
+	width:320px;
+	height:45px;
+	float:left;
+	margin-bottom:10px;
+	position:relative;
+}
+.holder-banderas-partido-del-dia
+{
+	width:75px;
+	height:45px;
+	float:left;
+	text-align:center;
+}
+.holder-horario-partido-del-dia
+{
+	width:100px;
+	height:45px;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+.holder-nombre-equipo
+{
+	width:100%;
+	text-align:center;
+	height:20px;
+	font-family: 'Oswald';
+	color:#FFF;	
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);	
+	font-size:14px;	
+}

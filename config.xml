@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.mdinteractivo.pacena"
+	versionCode="12" 
+	version   = "1.0.0">
+
+	<name>App Mundialera Paceña</name>
+	
+	<description>
+		Con esta App podrás estar informado de tus selecciones favoritas, encontrar las pantallas Paceña más cercanas y participar del juego de pronósticos de Paceña.
+	</description>
+	
+	<author href="https://build.phonegap.com" email="support@phonegap.com">
+		MdInteractivo
+	</author>
+	
+	<!-- PREFERENCIAS DE PLATAFORMA -->
+	<access origin="*" />
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<preference name="phonegap-version" value="3.4.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="android-installLocation" value="auto" /> 
+	<preference name="splashscreen" value="splash" />
+	<preference name="android-minSdkVersion" value="12" />
+
+	<!--preference name="SplashScreenDelay" value="5000" /-->
+	<!--ICONS-->		
+	<icon src="icon.png" />
+    <gap:splash src="splash.png" />
+
+	<!--IOS Icons-->
+	<icon src="img/icons/icon-57.png" gap:platform="ios" width="57" height="57" />
+	<icon src="img/icons/icon-36-ldpi.png" gap:platform="ios" width="36" height="36" />
+	<icon src="img/icons/icon-48-mdpi.png" gap:platform="ios" width="48" height="48" />
+	<icon src="img/icons/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="img/icons/icon-72-hdpi.png" gap:platform="ios" width="72" height="72" />
+	<icon src="img/icons/icon-96-xhdpi.png" gap:platform="ios" width="96" height="96" />
+	<icon src="img/icons/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+	<icon src="img/icons/icon-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="img/icons/icon-120.png" gap:platform="ios" width="120" height="120" />
+	<icon src="img/icons/icon-152.png" gap:platform="ios" width="152" height="152" />
+	
+	<!--IOS Splash-->
+	<gap:splash src="img/splash/ios/Default~iphone.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="img/splash/ios/Default@2x~iphone.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="img/splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="640" height="1136" />
+	<gap:splash src="img/splash/ios/Default-Landscape~ipad.png" gap:platform="ios" width="1024" height="768" />
+	<gap:splash src="img/splash/ios/Default-Portrait@2x~ipad.png" gap:platform="ios" width="1536" height="2008" />	
+	
+
+	<!--Android Icons-->	
+	<icon src="img/icons/icon-36-ldpi.png"  gap:platform="android" gap:density="ldpi" />
+	<icon src="img/icons/icon-48-mdpi.png"  gap:platform="android" gap:density="ldpi" />
+	<icon src="img/icons/icon-72-hdpi.png"  gap:platform="android" gap:density="ldpi" />
+	
+	<icon src="img/icons/icon-96-xhdpi.png"  gap:platform="android" gap:density="ldpi" />
+	<!--Android Splash-->	
+	<gap:splash src="img/splash/android/ldpi.png"  gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="img/splash/android/mdpi.png"  gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="img/splash/android/hdpi.png"  gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="img/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />	
+
+				
+	<!-- Plugins -->
+	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.battery-status" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+	
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
+	
+	<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
+        <param name="APP_ID" value="496101553812055" />
+        <param name="APP_NAME" value="Vívelo y deja vivirlo" />
+    </gap:plugin>
+	
+	<gap:plugin name="com.phonegap.plugins.childbrowser" />
+		
+</widget>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<site>
+	<!--titulo de la app-->
+	<title>Paceña</title>	
+
+	<!--descripcion de la app-->
+	<description>Paceña App</description>
+
+	<!--version-->
+	<version>1</version>	
+
+	<!--facebook app id-->
+	<fbappid>496101553812055</fbappid>
+	<fbatoken>3a23a7b85d96e3da06d7b478760a1e27</fbatoken>
+	
+	<!--server-->
+	<!--server>http://192.168.235.153/pacena/public/</server-->	
+	<server>http://www.mdinteractivo.com/pacena/</server>	
+
+	<!--secciones del sitio-->
+	<seccions>
+		<seccion id="1" color-text="white" key="noticias"  activa="true" color="red" top="10">Noticias y curiosidades</seccion>
+		<seccion id="2" color-text="white" key="fixture"   activa="true" color="yellow" top="15">Fixture del mundial</seccion>
+		<seccion id="3" color-text="white" key="polla"     activa="true" color="red" top="10">Juego de Pronósticos</seccion>
+		<seccion id="4" color-text="white" key="pantallas" activa="true" color="yellow" top="10">Dónde ver el mundial</seccion>
+		<seccion id="5" color-text="white" key="fotos"     activa="true" color="red" top="15">Fotos y videos</seccion>
+		<!--seccion id="6" color-text="white" key="stats"     activa="true" color="red" top="15">Estadísticas de partidos</seccion-->
+		<seccion id="7" color-text="white" key="bases"     activa="true" color="red" top="10">Bases y condiciones del juego</seccion>
+
+	</seccions>
+	
+		
+</site>

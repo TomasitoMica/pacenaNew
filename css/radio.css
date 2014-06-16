@@ -1,0 +1,57 @@
+#holder-radio-contenido
+{
+	width:320px;
+	float:left;
+	margin-top:-18px;
+	background:rgba(255,255,255,0.6);
+	text-transform: uppercase;	
+	text-align:center;
+	min-height:250px;
+}
+#holder-radio-contenido h3
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	margin-top:30px;
+}
+#holder-radio-contenido span
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration:underline;
+}
+#holder-transmitiendo-radio
+{
+	width:320px;
+	float:left;
+	border-bottom:#666 solid 1px;
+	border-top:#666 solid 1px;
+	margin-top:20px;	
+}
+#holder-transmitiendo-vertical
+{
+	width:25px;
+	height:90px;
+	float:left;		
+}
+#texto-vertical
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration:none;
+	margin-top: 59px;		
+}
+#holder-partido
+{
+	width:275px;
+	height:70px;
+	float:left;
+	font-family: 'Oswald';
+	font-size:18px;
+	font-weight: bold;
+	text-align:center;	
+	padding-top:20px;
+}

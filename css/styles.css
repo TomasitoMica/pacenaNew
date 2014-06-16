@@ -1,0 +1,349 @@
+@font-face 
+{
+	font-family: 'Oswald';
+	src: url('../fonts/oswald.eot');
+	src: url('../fonts/oswald.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/oswald.woff') format('woff'),
+		 url('../fonts/oswald.ttf') format('truetype'),
+		 url('../fonts/oswald.svg#oswald') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+    margin:0;
+    padding:0;
+    outline:none;
+	background:url(../img/general/background.jpg) no-repeat;
+	background-size:auto;
+}
+html,body 
+{ 
+    -webkit-touch-callout: none; 
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+}
+
+input,textarea, select
+{
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#app
+{
+	width:100%;
+	height:100%;
+}
+.divBlur
+{
+	filter: blur(6px);
+	height:55px;
+	width:10px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.divScroll
+{
+	width:100%;
+	float:left;
+	margin-top:60px;
+	overflow-y:auto;
+	/*-webkit-overflow-scrolling: touch !important;*/ 
+}
+.holder-general-item
+{
+	width:320px;
+	height:330px;
+	position:absolute;
+	top:0;
+	display:none;
+}
+#holder-seccion-loader
+{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+#wrapper-holder-seccion
+{
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	background:url(../img/general/back-seccion-loader.png) no-repeat;
+	background-size:cover;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.class-cero
+{
+	width:320px;
+	margin:0 auto;
+	position:relative;
+}
+.clear
+{
+	clear:both;
+}
+.shining_star
+{
+	position:absolute;
+	width:15px;
+	height:15px;
+	background:url(../img/general/star.png) no-repeat;
+	background-size:15px 15px;
+}
+.btn-menu
+{
+	width:100%;
+	height:65px;
+	float:left;
+	margin-top:2px;
+	position:relative;
+	opacity:0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+}
+.btn-menu:hover
+{
+	opacity:0.8;
+}
+.inner-btn-menu
+{
+	width:207px;
+	height:20px;
+	margin-top:17px;
+	padding-left:30px;
+	text-transform:uppercase;
+	font-family: 'Oswald';
+	font-size:14px;
+	padding-top:1px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);	
+}
+.header-seccion
+{
+	width:320px;
+	height:100px;
+	position:relative;
+	margin: 0 auto;
+}
+#btn-inicio-header
+{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+}
+/*.header-seccion #logo-pacena
+{
+	position:absolute;
+	top:5px;
+	left:0;
+}
+.header-seccion #logo-fifa
+{
+	position:absolute;
+	top:0;
+	left:0;
+}*/
+.header-seccion #logo-pacena
+{
+	position:absolute;
+	top:5px;
+	right:0;
+}
+.header-seccion #logo-fifa
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#holder-user-name
+{
+	width:113px;
+	height:100px;
+	position:absolute;
+	top:0;
+	left:50%;
+	text-align:center;
+	margin-left:-60px;
+}
+#holder-user-name h3
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 18px;
+	color:#FFF;
+	margin-bottom:5px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+	margin-top:25px;
+}
+#holder-user-name p
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 15px;
+	color:#FFF;
+	margin-top:0px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+}
+.wrapper-titulo-seccion
+{
+	width:100%;
+	height:59px;
+	float:left;
+	position:absolute;
+	top:0;
+	left:0;
+	padding-top:9px;
+	text-align:center;
+	z-index: 10;	
+}
+.wrapper-titulo-seccion h1
+{
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size:14px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	margin-top:8px;
+	margin-left:5px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);	
+}
+.btn-volver-inicio
+{
+	width:45px;
+	height:23px;
+	top:9px;
+	font-family: 'Oswald';
+	font-size:12px;
+	padding-left:20px;
+	padding-top:10px;	
+	position:absolute;
+	left:14px;;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);				
+}
+
+.btn-volver-seccion
+{
+	width:45px;
+	height:23px;
+	top:9px;
+	font-family: 'Oswald';
+	font-size:12px;
+	padding-left:20px;
+	padding-top:10px;	
+	position:absolute;
+	left:14px;;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);	
+}
+#check-connection-wrapper
+{
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	background:#BF1F1E;
+}
+
+#holder-contenido-check-connection
+{
+	width:320px;
+	height:250px;
+	position:absolute;
+	top:50%;
+	margin-left:-160px;
+	left:50%;
+	margin-top:-125px;
+}
+
+#holder-contenido-check-connection span
+{
+	font-family: 'Oswald';
+	font-size:16px;
+	text-align:center;
+	color:#F9D748;
+	float:left;
+	width:300px;
+	padding:10px 10px;
+}
+
+#cargador
+{
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:10;	
+	left:0;
+	top:0;
+	background:transparent;
+}
+#holder_loader
+{
+    background: #FFF url(../img/general/loader.GIF) no-repeat center;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-15px;
+	margin-top:-15px;
+    width: 30px;
+    height: 30px;
+}
+.fixed-holder
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;	
+}
+.grey
+{
+	color:#333;
+}
+.titulo-marquee
+{
+	width:100%;
+	height:27px;
+	background:url(../img/secciones/bases/titular-marquee.png) no-repeat;
+	background-size:320px 29px;
+	text-align:center;
+	padding-top:4px;	
+}
+.titulo-marquee h1
+{
+	font-family: 'Oswald';
+	font-size:14px;
+	color:#ffc600;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	margin:0;
+	padding:0;		
+}
+#btn-bases
+{
+	width: 150px;
+	height: 25px;
+	background: #e11913;
+	text-align: center;
+	font-family: 'Oswald';
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-top: 5px;
+	margin-top:15px;
+}
+ 
